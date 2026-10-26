@@ -7,14 +7,22 @@
 
 ## 학생은 이렇게 시작합니다
 
-[START-HERE.md](START-HERE.md)부터 시작합니다. Codex 또는 Claude Code에서 압축을 푼
-저장소 폴더를 열고 다음처럼 요청하세요.
+공통강의의 Git 세팅을 마친 컴퓨터에서, 이 저장소를 내 GitHub 계정에 **포크**해서 시작합니다.
+
+1. Codex 또는 Claude Code에 붙여 넣습니다.
+
+   > https://github.com/hyun2xyz/AFTEREFFECT_3D_FOOH 를 제 GitHub 계정으로 포크해서 문서(Documents) 폴더에
+   > 받아 주세요. 끝나면 origin과 upstream 주소를 보여 주세요.
+
+2. 받은 `AFTEREFFECT_3D_FOOH` 폴더를 Codex에서 다시 열고 [START-HERE.md](START-HERE.md)의 문장이나
+   다음처럼 요청합니다.
 
 > START-HERE.md, AGENTS.md와 공유 스킬을 읽고 제 컴퓨터부터 확인해 주세요.
 > 필요한 것만 설치 안내하고, 제가 주는 짧은 영상에 3D 캐릭터를 세워 합성하는 과정을
 > 한 단계씩 진행해 주세요. 유료 생성은 예상 크레딧을 보여 주고 제 승인을 받은 뒤
 > 한 번만 실행해 주세요. 카메라 기준을 통과했는지 숫자로 알려 주세요.
 
+- [포크로 시작하고 업데이트 받기](docs/fork-and-update.md)
 - [아무것도 없는 Windows 준비](docs/setup-windows.md)
 - [아무것도 없는 Mac 준비](docs/setup-macos.md)
 - [3D FOOH 규칙](docs/rules.md)

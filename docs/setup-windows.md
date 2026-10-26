@@ -1,7 +1,7 @@
 # Windows 준비
 
-Windows 10/11 x64 기준입니다. [START-HERE](../START-HERE.md)대로 압축을 푼 폴더를
-에이전트와 PowerShell의 작업 폴더로 선택합니다. Git은 필요하지 않습니다.
+Windows 10/11 x64 기준입니다. [START-HERE](../START-HERE.md)대로 포크해서 받은 저장소 폴더를
+에이전트와 PowerShell의 작업 폴더로 선택합니다.
 설치된 도구를 먼저 확인하고 빠진 것만 준비합니다.
 
 ```powershell

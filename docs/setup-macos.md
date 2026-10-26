@@ -1,7 +1,7 @@
 # Mac 준비
 
-[START-HERE](../START-HERE.md)대로 압축을 푼 폴더를 에이전트에 엽니다. Git은
-필요하지 않습니다. 설치된 도구를 먼저 확인하고 빠진 것만 준비합니다.
+[START-HERE](../START-HERE.md)대로 포크해서 받은 저장소 폴더를 에이전트에 엽니다.
+설치된 도구를 먼저 확인하고 빠진 것만 준비합니다.
 
 ```sh
 python3.13 -B scripts/setup_environment.py --check
@@ -12,6 +12,8 @@ python3.13 -B scripts/setup_environment.py --check
 [Homebrew 공식 설치 안내](https://brew.sh/)를 확인하고
 [Python 3.13](https://formulae.brew.sh/formula/python@3.13)과
 [FFmpeg](https://formulae.brew.sh/formula/ffmpeg)을 설치합니다.
+Homebrew는 공통강의 Git 세팅에서 설치했습니다. 없다면 아래 공식 설치 명령은 **학생이 터미널 앱에서
+직접** 실행합니다. 관리자 암호를 입력해야 해서 에이전트가 대신 끝낼 수 없습니다.
 
 ```sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
