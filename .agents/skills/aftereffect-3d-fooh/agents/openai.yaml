@@ -1,0 +1,4 @@
+interface:
+  display_name: "Aftereffect 3D FOOH"
+  short_description: "실사 카메라 매칭, Comfy Tripo 캐릭터, Blender 접지·물리, 애펙 합성 수업용 스킬"
+  default_prompt: "Use $aftereffect-3d-fooh to check my computer and guide one lesson at a time from my clip to a 3D FOOH composite in After Effects."
