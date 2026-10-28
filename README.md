@@ -27,6 +27,7 @@
 - [아무것도 없는 Mac 준비](docs/setup-macos.md)
 - [3D FOOH 규칙](docs/rules.md)
 - [첫 영상부터 AE까지](docs/workflow.md)
+- [AE 컴프 만들기](docs/ae-comp.md)
 
 ## 첫 버전의 범위
 
@@ -57,7 +58,7 @@ python3.13 -B scripts/setup_environment.py --check
 .venv/bin/python -B -m unittest discover -s tests -v
 ```
 
-지금 `scripts/`에는 설치 점검 도구만 있습니다. 카메라·Blender·Comfy 제출·AE JSX 스크립트는
-에이전트가 샷마다 `work/<shot>/`에 만들고, 실제 샷에서 통과한 것만 `scripts/`로 옮겨
+`scripts/`에는 설치 점검 도구와 AE 컴프 JSX 생성기(`ae_comp.py`, [사용법](docs/ae-comp.md))가 있습니다.
+카메라·Blender·Comfy 제출 스크립트는 에이전트가 샷마다 `work/<shot>/`에 만들고, 실제 샷에서 통과한 것만 `scripts/`로 옮겨
 각자의 스킬로 키웁니다. 실행 파일·Adobe 앱·생성 모델·학생 영상·AEP는 재배포하지 않습니다.
 [출처·라이선스](THIRD_PARTY_NOTICES.md)를 확인하세요.

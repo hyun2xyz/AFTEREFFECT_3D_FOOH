@@ -44,8 +44,10 @@ contains `scripts/setup_environment.py`. Rules live in
   penetration, bounces and settling separately. Do not rebake a completed cache.
 - Render gray, material, light/shadow and final passes with the same camera and
   frame clock. Match blur, grain and exposure on the CG only.
-- Build the AE project from Python-generated JSX run by the student through
-  File > Scripts > Run Script File. No MCP, persistent bridge, overwrite of open
+- Build the AE project with `scripts/ae_comp.py` ([ae-comp](../../../docs/ae-comp.md)):
+  it writes JSX the student runs in a new, empty project through
+  File > Scripts > Run Script File; then read `build_comp.result.json` with the
+  printed `job_id`. No MCP, persistent bridge, overwrite of open
   projects, automatic save or render.
 - If the camera gate or gray attachment fails, stop before breakdown or publishing.
 
